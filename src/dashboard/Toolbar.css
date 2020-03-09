@@ -1,0 +1,70 @@
+*{
+  font-family: 'Quicksand', ;
+}
+.toolbar{
+    position: fixed;
+    width:17%;
+    color: #521751;
+    height:100%;
+    
+
+}
+
+.App{
+    height: '100%';
+    display: flex;
+    color:white;
+    margin-left: 16rem;
+    
+
+  
+  }
+  .myjobs{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .myjobs:hover{
+      margin-left: 100;
+    background: #c77c02;
+      
+  }
+
+  .applicants{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .applicants:hover{
+      margin-left: 100;
+    background:#00b248;
+      
+  }
+  .myprofile{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .myprofile:hover{
+      margin-left: 100;
+    background: #c50e29;
+      
+  }
+  .postajob{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .postajob:hover{
+      margin-left: 100;
+    background: #0043ca;
+      
+  }
+  .main{
+    height: 1250;
+    width: 100%;
+  }
